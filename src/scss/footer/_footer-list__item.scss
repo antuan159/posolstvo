@@ -1,0 +1,7 @@
+.footer-list__item {
+    display: inline-block;
+    min-width: 300px;
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}

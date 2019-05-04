@@ -1,0 +1,9 @@
+.footer__text {
+  margin: 0;
+  text-align: center;
+  display: inline-block;
+  font-weight: normal;
+  @include font(16px, $f-Gabriela, $c-black);
+}
+@media ($m-tablet) {
+}
