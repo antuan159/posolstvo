@@ -1,0 +1,19 @@
+.page-header__text {
+  @include font(24px, $f-Kaushan-script, $c-white);
+}
+
+@media ($m-tablet) {
+  .page-header__text {
+    font-size: 50px;
+
+    &:not(:nth-last-child(1)) {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media ($m-desct) {
+  .page-header__text {
+    font-size: 38px;
+  }
+}

@@ -1,0 +1,13 @@
+@media ($m-mobile) {
+  .site-navigation__item {
+    border: 1px solid white;
+    min-height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:not(:nth-last-child(1)) {
+      margin-bottom: 10px;
+    }
+  }
+}

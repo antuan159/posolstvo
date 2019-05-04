@@ -1,0 +1,21 @@
+.site-logo {
+  @include font($fs-36px, $f-Kaushan-script, $c-white);
+}
+
+@media ($m-mobile) {
+  .site-logo {
+    margin-bottom: 40px;
+  }
+}
+@media ($m-tablet) {
+  .site-logo {
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+@media ($m-tablet) {
+  .site-logo {
+    font-size: 38px;
+  }
+}

@@ -1,0 +1,15 @@
+.site-navigation {
+}
+@media ($m-tablet) {
+  .site-navigation {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+}
+@media ($m-desct) {
+  .site-navigation {
+    margin-bottom: 0px;
+    padding-top: 12px;
+  }
+}

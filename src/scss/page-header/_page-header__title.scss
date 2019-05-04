@@ -1,0 +1,23 @@
+.page-header__title {
+  @include font(46px, $f-monserat, $c-white);
+}
+
+@media ($m-mobile) {
+  .page-header__title {
+    margin-bottom: 20px;
+  }
+}
+
+@media ($m-tablet) {
+  .page-header__title {
+    font-size: 70px;
+    margin-bottom: 50px;
+  }
+}
+
+@media ($m-desct) {
+  .page-header__title {
+    font-size: 80px;
+    margin-bottom: 90px;
+  }
+}
