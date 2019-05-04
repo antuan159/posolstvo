@@ -1,5 +1,6 @@
 .page-header__title {
   @include font(40px, $f-monserrat, $c-white);
+  font-weight: 700;
 }
 
 @media ($m-mobile) {

@@ -1,6 +1,7 @@
 .reception-days__text {
   margin: 0;
   text-align: center;
+  font-weight: normal;
 
   &:first-child {
     @include font($fs-26px, $f-monserrat, $c-black);
