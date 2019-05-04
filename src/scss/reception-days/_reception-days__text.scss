@@ -8,7 +8,7 @@
   }
 
   &:not(:first-child) {
-    @include font(18px, $f-helvetica, $c-black);
+    @include font(18px, $f-Gabriela, $c-black);
   }
 
   &:not(:last-child) {

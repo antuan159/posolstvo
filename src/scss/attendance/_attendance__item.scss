@@ -1,5 +1,5 @@
 .attendance__item {
-  @include font(18px, $f-helvetica, $c-black);
+  @include font(18px, $f-Gabriela, $c-black);
   text-align: center;
   
   &:not(:last-child) {

@@ -1,12 +1,10 @@
 .site-navigation__link {
-  @include font($fs-26px, $f-monserrat, $c-white);
+  @include font(24px, $f-monserrat, $c-white);
   position: relative;
 }
 
 @media ($m-tablet) {
   .site-navigation__link {
-    font-size: 26px;
-
     &::after {
       content: "";
       position: absolute;

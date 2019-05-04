@@ -2,7 +2,7 @@
   margin: 0;
   text-align: center;
   font-weight: normal;
-  @include font(18px, $f-helvetica, $c-black);
+  @include font(18px, $f-Gabriela, $c-black);
 
   &:not(:last-child) {
     margin-bottom: 15px;

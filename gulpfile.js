@@ -86,5 +86,6 @@ gulp.task('default', gulp.series(
 ));
 
 gulp.task('build', gulp.series(
-  gulp.parallel('minify', 'img-min', 'css-min', 'img-min', 'script', 'font')
+  'sass',
+  gulp.parallel('minify', 'img-min', 'css-min', 'script', 'font')
 ));
