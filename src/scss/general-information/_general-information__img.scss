@@ -1,0 +1,18 @@
+@media ($m-mobile) {
+  .general-information__img {
+    width: 290px;
+    height: 191px;
+  }
+}
+@media ($m-tablet) {
+  .general-information__img {
+    width: 230px;
+    height: 151px;
+  }
+}
+@media ($m-desct) {
+  .general-information__img {
+    width: 330px;
+    height: 217px;
+  }
+}

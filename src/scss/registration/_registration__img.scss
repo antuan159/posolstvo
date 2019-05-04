@@ -1,0 +1,19 @@
+@media ($m-mobile) {
+  .registration__img {
+    width: 290px;
+    height: 191px;
+    margin-top: 20px;
+  }
+}
+@media ($m-tablet) {
+  .registration__img {
+    width: 230px;
+    height: 151px;
+  }
+}
+@media ($m-desct) {
+  .registration__img {
+    width: 330px;
+    height: 217px;
+  }
+}

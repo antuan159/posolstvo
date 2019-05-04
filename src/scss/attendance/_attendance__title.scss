@@ -1,0 +1,11 @@
+.attendance__title {
+  @include font($fs-26px, $f-monserrat, $c-black);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+@media ($m-tablet) {
+  .attendance__title {
+    font-size: 28px;
+  }
+}

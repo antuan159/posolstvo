@@ -1,5 +1,5 @@
 .page-header__title {
-  @include font(46px, $f-monserat, $c-white);
+  @include font(40px, $f-monserrat, $c-white);
 }
 
 @media ($m-mobile) {
@@ -10,7 +10,7 @@
 
 @media ($m-tablet) {
   .page-header__title {
-    font-size: 70px;
+    font-size: 62px;
     margin-bottom: 50px;
   }
 }
