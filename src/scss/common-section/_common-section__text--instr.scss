@@ -1,0 +1,5 @@
+.common-section__text--instr {
+  &:nth-child(4n + 1) {
+    font-weight: 700;
+  }
+}
