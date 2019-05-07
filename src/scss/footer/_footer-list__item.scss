@@ -3,6 +3,7 @@
   justify-content: center;
   min-width: 300px;
 }
+
 @media ($m-mobile) {
   .footer-list__item {
     &:not(:last-child) {

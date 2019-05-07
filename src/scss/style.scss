@@ -5,6 +5,8 @@
 @import "common/mixin";
 @import "common/basic";
 @import "common/common";
+@import "flex/flex";
+@import "order/order";
 
 //header
 @import "page-header/page-header";
@@ -21,29 +23,18 @@
 // end header
 
 //  main
-// section reception-days
-@import "reception-days/reception-days";
-@import "reception-days/reception-days__text";
-@import "reception-days/reception-days__grafik";
+//common-section
+@import "common-section/common-section";
+@import "common-section/common-section__title";
+@import "common-section/common-section__text";
+@import "common-section/common-section__img";
+@import "common-section/common-section__link";
 
-// section registration
-@import "registration/registration";
-@import "registration/registration__text";
-@import "registration/registration__title";
-@import "registration/registration__img";
-// section general-information
-@import "general-information/general-information";
-@import "general-information/general-information__text";
-@import "general-information/general-information__img";
 // section attendance
 @import "attendance/attendance";
 @import "attendance/attendance__title";
-@import "attendance/attendance-list";
 @import "attendance/attendance__item";
 @import "attendance/attendance__img";
-// section info
-@import "info/info";
-@import "info/info__text";
 //end main
 
 //footer

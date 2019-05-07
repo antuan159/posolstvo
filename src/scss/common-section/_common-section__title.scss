@@ -1,0 +1,13 @@
+.common-section__title {
+  @include font($fs-26px, $f-monserrat, $c-black);
+  margin: 0;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+@media ($m-tablet) {
+  .common-section__title {
+    font-size: 28px;
+  }
+}
