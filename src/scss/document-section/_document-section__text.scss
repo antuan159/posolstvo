@@ -1,0 +1,12 @@
+.document-section__text {
+  margin: 0;
+  font-weight: normal;
+  text-align: center;
+  @include font(18px, $f-Gabriela, $c-black);
+}
+
+@media ($m-tablet) {
+  .document-section__text {
+    font-size: 20px;
+  }
+}

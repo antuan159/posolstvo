@@ -1,0 +1,11 @@
+.document-section__title {
+  @include font($fs-26px, $f-monserrat, $c-black);
+  margin: 0;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+@media ($m-tablet) {
+  .document-section__title {
+    font-size: 28px;
+  }
+}
