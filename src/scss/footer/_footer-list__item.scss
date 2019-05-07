@@ -1,7 +1,30 @@
 .footer-list__item {
-    display: inline-block;
+  display: flex;
+  justify-content: center;
+  min-width: 300px;
+}
+@media ($m-mobile) {
+  .footer-list__item {
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media ($m-tablet) {
+  .footer-list__item {
     min-width: 300px;
-  &:not(:last-child) {
-    margin-bottom: 10px;
+    &:not(:nth-last-child(-n + 2)) {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media ($m-desct) {
+  .footer-list__item {
+    min-width: 450px;
+    &:not(:nth-last-child(-n + 2)) {
+      margin-bottom: 10px;
+    }
   }
 }
