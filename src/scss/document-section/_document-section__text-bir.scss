@@ -1,0 +1,12 @@
+.document-section__text-bir {
+  margin: 0;
+  font-weight: normal;
+  text-align: center;
+  @include font(18px, $f-Gabriela, $c-black);
+  margin-top: 25px;
+}
+@media ($m-tablet) {
+  .document-section__text-bir {
+    font-size: 20px;
+  }
+}
