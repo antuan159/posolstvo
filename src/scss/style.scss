@@ -29,7 +29,6 @@
 @import "common-section/common-section__text";
 @import "common-section/common-section__img";
 @import "common-section/common-section__link";
-@import "common-section/common-section__text--instr";
 
 // section attendance
 @import "attendance/attendance";
@@ -43,3 +42,6 @@
 @import "footer/footer__text";
 @import "footer/footer__list";
 @import "footer/footer-list__item";
+
+//instruction page
+@import "instruction/title";
