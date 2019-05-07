@@ -1,0 +1,10 @@
+.document-section-list {
+  @include font(18px, $f-Gabriela, $c-black);
+  font-weight: normal;
+}
+
+@media ($m-tablet) {
+  .document-section-list {
+    font-size: 20px;
+  }
+}
