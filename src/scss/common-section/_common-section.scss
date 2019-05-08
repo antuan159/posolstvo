@@ -1,3 +1,6 @@
 .common-section {
   @extend %section;
+  &:last-child{
+    padding-top: 30px;
+  }
 }

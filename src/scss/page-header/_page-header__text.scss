@@ -1,9 +1,5 @@
 .page-header__text {
   @include font(24px, $f-Kaushan-script, $c-white);
-
-  &:first-child {
-    margin-bottom: 20px;
-  }
 }
 
 @media ($m-tablet) {
