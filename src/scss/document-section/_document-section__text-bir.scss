@@ -4,6 +4,10 @@
   text-align: center;
   @include font(18px, $f-Gabriela, $c-black);
   margin-top: 25px;
+
+  &:first-child {
+    margin-bottom: 15px;
+  }
 }
 @media ($m-tablet) {
   .document-section__text-bir {

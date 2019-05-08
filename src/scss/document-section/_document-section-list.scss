@@ -1,6 +1,7 @@
 .document-section-list {
   @include font(18px, $f-Gabriela, $c-black);
   font-weight: normal;
+  margin: 0;
 }
 
 @media ($m-tablet) {
