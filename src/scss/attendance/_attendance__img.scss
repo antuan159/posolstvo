@@ -1,8 +1,6 @@
 @media ($m-mobile) {
   .attendance__img {
-    width: 290px;
-    height: 191px;
-    margin-top: 20px;
+    display: none;
   }
 }
 @media ($m-tablet) {
