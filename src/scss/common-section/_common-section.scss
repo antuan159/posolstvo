@@ -1,15 +1,57 @@
 .common-section {
   @extend %section;
+}
 
-  &:last-child {
-    padding-top: 30px;
+@media ($m-tablet) {
+  .common-section {
+    &:nth-child(1) {
+      padding-left: 33.333%;
+      background-image: url(../../img/grafik-min.jpg);
+      background-repeat: no-repeat;
+      background-size: 260px 171px;
+      background-position: 2% 50%;
+    }
+
+    &:nth-child(2) {
+      background-image: url(../../img/register.jpg);
+      background-repeat: no-repeat;
+      background-size: 260px 147px;
+      background-position: 98% 50%;
+    }
+
+    &:nth-child(3) {
+      padding-left: 33.333%;
+      background-image: url(../../img/polza.jpg);
+      background-repeat: no-repeat;
+      background-size: 260px 135px;
+      background-position: 2% 50%;
+    }
+
+    &:nth-child(4) {
+      background-image: url(../../img/uslugi.png);
+      background-repeat: no-repeat;
+      background-size: 260px 195px;
+      background-position: 98% 50%;
+    }
   }
 }
 
 @media ($m-desct) {
   .common-section {
+    &:nth-child(1) {
+      background-size: 310px 204px;
+    }
+
     &:nth-child(2) {
-      padding-top: 30px;
+      background-size: 310px 176px;
+    }
+
+    &:nth-child(3) {
+      background-size: 310px 161px;
+    }
+
+    &:nth-child(4) {
+      background-size: 310px 232px;
     }
   }
 }

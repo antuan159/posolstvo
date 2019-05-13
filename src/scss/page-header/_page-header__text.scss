@@ -1,12 +1,14 @@
 .page-header__text {
   @include font(24px, $f-Kaushan-script, $c-white);
+  margin: 0;
+  display: inline-block;
 }
 
-@media ($m-tablet) {
+@media (min-width:768px) and (max-width: 959px) {
   .page-header__text {
     font-size: 50px;
 
-    &:not(:nth-last-child(1)) {
+    &:first-of-type {
       margin-bottom: 20px;
     }
   }
@@ -15,5 +17,6 @@
 @media ($m-desct) {
   .page-header__text {
     font-size: 38px;
+    padding-right: 30px;
   }
 }

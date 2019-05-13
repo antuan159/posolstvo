@@ -1,8 +1,0 @@
-.attendance__item {
-  @include font(18px, $f-Gabriela, $c-black);
-  text-align: center;
-  
-  &:not(:last-child) {
-    margin-bottom: 16px;
-  }
-}

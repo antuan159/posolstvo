@@ -1,24 +1,25 @@
 .page-header__title {
   @include font(22px, $f-monserrat, $c-white);
   font-weight: 700;
+  
 }
 
 @media ($m-mobile) {
   .page-header__title {
-    margin-bottom: 4px;
+    margin: 0 0 4px 0;
   }
 }
 
 @media ($m-tablet) {
   .page-header__title {
     font-size: 62px;
-    margin-bottom: 50px;
+    margin: 0 0 50px 0;
   }
 }
 
 @media ($m-desct) {
   .page-header__title {
     font-size: 80px;
-    margin-bottom: 90px;
+    margin: 0 0 90px 0;
   }
 }

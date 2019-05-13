@@ -5,8 +5,6 @@
 @import "common/mixin";
 @import "common/basic";
 @import "common/common";
-@import "flex/flex";
-@import "order/order";
 
 //header
 @import "page-header/page-header";
@@ -30,11 +28,6 @@
 @import "common-section/common-section__img";
 @import "common-section/common-section__link";
 
-// section attendance
-@import "attendance/attendance";
-@import "attendance/attendance__title";
-@import "attendance/attendance__item";
-@import "attendance/attendance__img";
 //end main
 
 //footer
